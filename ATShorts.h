@@ -1,5 +1,5 @@
-#ifdef AT_SHORTS_H
-#define AT_SHORTS_H
+#ifdef ATShorts_H
+#define ATShorts_H
 
 #include "Arduino.h"
 
