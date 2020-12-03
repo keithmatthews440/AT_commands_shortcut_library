@@ -7,11 +7,12 @@
 class ATShorts{
   public:
     ATShorts();
-    String read();
-    void print();
+    String read(String strIN);
+    void print(String strIN, int wait = 1000);
     void begin();
-    void printHex();
+    void printHex(byte hexIN[]);
   private:
+    String _strIN
   
 }
 #endif
