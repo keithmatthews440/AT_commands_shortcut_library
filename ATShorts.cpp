@@ -66,5 +66,18 @@ void ATShorts::begin(void){
 
 void ATShorts::printHex(byte hexIN[]){
   fonaSS.write(hexIN, sizeof(hexIN));
-  read();
+  read("HEX");
+}
+
+void ATShorts::check(){
+  while(true){
+    String byteRead = Serial.readString();
+    input = input + byteRead;
+    delay(100);
+    if(!Serial.available()){
+      Send(input);
+      input = "";
+      break;
+    }
+  }
 }
