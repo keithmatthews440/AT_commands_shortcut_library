@@ -6,7 +6,7 @@
 
 class ATShorts{
   public:
-    ATShorts();
+    void ATShorts();
     String read(String strIN);
     void print(String strIN, int wait = 1000);
     void begin();
