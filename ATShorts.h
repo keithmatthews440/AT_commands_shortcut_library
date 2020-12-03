@@ -11,6 +11,7 @@ class ATShorts{
     void print(String strIN, int wait = 1000);
     void begin();
     void printHex(byte hexIN[]);
+    void check();
   private:
     String _strIN
   
