@@ -4,3 +4,4 @@ begin	KEYWORD 2
 print	KEYWORD 2
 printHex	KEYWORD 2
 read	KEYWORD 2
+check KEYWORD 2
